@@ -40,7 +40,7 @@ private int bodyIndex;
         Bundle b = getIntent().getExtras();
 
         if(b != null){
-            bodyindex = b.getInt("bodyIndex");
+            bodyIndex = b.getInt("bodyIndex");
 
             headindex = b.getInt("headIndex");
 
